@@ -34,22 +34,22 @@ Before running the project, make sure you have the following installed:
 
 ## User APIs
 
-POST /register: Create a user account.
-POST /login: User login.
+1. POST /register: Create a user account.
+2. POST /login: User login.
 
 ## Books APIs
 
-POST /books: Create a book.
-GET /books: Retrieve all books.
-GET /books/:bookId: Retrieve a specific book.
-PUT /books/:bookId: Update a book.
-DELETE /books/:bookId: Delete a book.
+1. POST /books: Create a book.
+2. GET /books: Retrieve all books.
+3. GET /books/:bookId: Retrieve a specific book.
+4. PUT /books/:bookId: Update a book.
+5. DELETE /books/:bookId: Delete a book.
 
 ## Review APIs
 
-POST /books/:bookId/review: Add a review for a book.
-PUT /books/:bookId/review/:reviewId: Update a review.
-DELETE /books/:bookId/review/:reviewId: Delete a review.
+1. POST /books/:bookId/review: Add a review for a book.
+2. PUT /books/:bookId/review/:reviewId: Update a review.
+3. DELETE /books/:bookId/review/:reviewId: Delete a review.
 
 ## Authentication and Authorization
 
