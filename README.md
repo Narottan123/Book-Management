@@ -19,11 +19,9 @@ Before running the project, make sure you have the following installed:
 
  Clone the repository:
 
-   git clone https://github.com/Narottan123/Book-Management.git
+ 1.  git clone https://github.com/Narottan123/Book-Management.git
 
-1. Navigate to the project directory:    cd book-management-project
-
-2. Install dependencies:  npm install
+ 2. Install dependencies:  npm install
 
 ## Usage
 
