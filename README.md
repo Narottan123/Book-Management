@@ -5,6 +5,7 @@ Key points
 Branch name should follow the naming convention project/booksManagement
 Follow the naming conventions exactly as instructed.
 Models
+
 User Model
 { 
   title: {string, mandatory, enum[Mr, Mrs, Miss]},
@@ -20,6 +21,7 @@ User Model
   createdAt: {timestamp},
   updatedAt: {timestamp}
 }
+
 Books Model
 { 
   title: {string, mandatory, unique},
